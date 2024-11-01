@@ -2,7 +2,7 @@
     // Check if the file parameter is set
     if (isset($_GET['file'])) {
         $file = basename($_GET['file']); // Get the file name from the qeury parameter
-        $filePath = 'D:/Programs/xampp/htdocs/website/tmp/output/' . $file; // Path to the output file
+        $filePath = 'tmp/output/' . $file; // Path to the output file
 
         // Debugging output
         echo "Requested file: " . htmlspecialchars($file) . "<br>";
