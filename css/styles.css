@@ -1,0 +1,123 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 7%);
+}
+
+.container {
+    height: auto;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 15px 15px 10px hsla(0, 0%, 5%, 0.809);
+    background-color: hsl(0, 0%, 11%);
+    /* border: 2px solid red; */
+    padding-top: 20px;
+}
+
+.h1-txt {
+    position: relative;
+    top: 0;
+    margin-bottom: auto;
+    font-size: 4em;
+    color: whitesmoke;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.file-input {
+    display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.custom-file-upload:hover {
+    background-color: hsl(210, 100%, 35%);
+}
+
+#file-name {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: hsl(210, 100%, 35%);
+}
+
+#output-container {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#output-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+
+#output-container button:hover {
+    background-color: hsl(210, 100%, 35%);
+}
+
+#output-text {
+    color: whitesmoke; /* Color for output text */
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+
+#output-container a {
+    padding: 10px 20px; /* Button-like appearance */
+    background-color: hsl(210, 100%, 20%); /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners for button */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#output-container a:hover {
+    background-color: hsl(210, 100%, 50%); /* Lighter background on hover */
+}
