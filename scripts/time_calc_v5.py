@@ -32,8 +32,8 @@ def calculate_working_time(reported_date, acknowledged_date):
     return int(days), int(hours), int(minutes), int(seconds)
 
 # Read from CSV and write results
-input_file = 'D:/Programs/xampp/htdocs/website/tmp/upload/dates.csv'  # Change this to your input CSV file path
-output_file = 'D:/Programs/xampp/htdocs/website/tmp/output/output.csv'  # Change this to your output CSV file path
+input_file = 'tmp/upload/dates.csv'  # Change this to your input CSV file path
+output_file = 'tmp/output/output.csv'  # Change this to your output CSV file path
 
 try:
     if not os.path.exists(input_file):
